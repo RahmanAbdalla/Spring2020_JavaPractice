@@ -269,5 +269,21 @@ public class Library {
 
     }
 
+    //Merging Two Strings
+    public static String mergeStrings(String one, String two) {
+        String res = "";
+
+        for (int i = 0; i < one.length() || i < two.length(); i++) {
+
+            if (i < one.length()) {
+                res += one.charAt(i);
+            }
+            if (i < two.length()) {
+                res += two.charAt(i);
+            }
+        }
+
+        return res;
+    }
 
 }

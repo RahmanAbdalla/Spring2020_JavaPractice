@@ -11,29 +11,27 @@ import java.util.Arrays;
 import java.util.Scanner;
 public class hi {
     public static void main(String[] args) {
-        // Scanner scan = new Scanner(System.in);
+         Scanner scan = new Scanner(System.in);
 
-        String s1 = "wooden";
-        String s2 = "spoon";
-        String st = mergeStrings(s1,s2);
-        System.out.println(st);
-
-    }
-
-    public static String mergeStrings(String one, String two) {
-       String res = "";
-
-        for (int i = 0; i < one.length() || i < two.length(); i++) {
-
-            if (i < one.length()){
-                res += one.charAt(i);
-            }
-            if (i < two.length()){
-                res += two.charAt(i);
+         boolean b = isprime(3);
+        System.out.println(b);
+        for (int k=0; k <=500; k++){
+            if (isprime(k)){
+                System.out.print(k+" ");
             }
         }
 
-        return res;
+
+    }
+
+    public static boolean isprime (int n){
+
+        if (n% 2 !=0 && n%3 != 0 && n %5 !=0 && n % 7 != 0 && n %11 !=0){
+            return true;
+        }else {
+            return false;
+        }
+
     }
 
     }
