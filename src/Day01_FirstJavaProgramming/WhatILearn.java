@@ -1,4 +1,4 @@
-package day01_FirstJavaProgramming;
+package Day01_FirstJavaProgramming;
 
 public class WhatILearn {
     public static void main(String[] args) {

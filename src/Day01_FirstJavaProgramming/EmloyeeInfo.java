@@ -1,4 +1,4 @@
-package day01_FirstJavaProgramming;
+package Day01_FirstJavaProgramming;
 
 public class EmloyeeInfo {
     public static void main(String[] args) {

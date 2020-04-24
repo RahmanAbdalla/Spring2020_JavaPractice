@@ -286,4 +286,37 @@ public class Library {
         return res;
     }
 
+    //Check if a number is palindrome
+    public static void isPalindrome(int num) {
+
+        int palindrome = num;
+        int reverse = 0; //
+        while (palindrome != 0) {
+            int remainder = palindrome % 10; //123%10 ==3 ,  12%10 ==2;
+            reverse = reverse * 10 + remainder; //0 *12 +3 ==>3
+            palindrome = palindrome / 10; //12 / 10 ==>1.2
+        }
+        if (num == reverse) {
+            System.out.println(true);
+        } else {
+            System.out.println(false);
+        }
+
+        /* This way Also
+     String st = Integer.toString(num);
+        String res = "";
+        for (int i=st.length()-1; i >=0; i--){
+            res +=st.charAt(i);
+        }
+        if (res.equals(st)){
+            System.out.println(true);
+        }else {
+            System.out.println(false);
+        }
+
+    }
+
+         */
+    }
+
 }

@@ -1,4 +1,4 @@
-package day02_Variables;
+package Day02_Variables;
 
 public class StringOfText {
     public static void main(String[] args) {

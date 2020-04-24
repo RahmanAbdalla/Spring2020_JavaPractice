@@ -1,4 +1,4 @@
-package day02_Variables;
+package Day02_Variables;
 
 public class MyFavoriteBook {
     public static void main(String[] args) {

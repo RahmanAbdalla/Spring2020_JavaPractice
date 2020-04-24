@@ -1,4 +1,4 @@
-package day05_Unary_ShorthandOperators;
+package Day05_Unary_ShorthandOperators;
 
 public class Divisibility {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package day01_FirstJavaProgramming;
+package Day01_FirstJavaProgramming;
 
 public class HelloWorld {
     public static void main (String[] cybertek) {
