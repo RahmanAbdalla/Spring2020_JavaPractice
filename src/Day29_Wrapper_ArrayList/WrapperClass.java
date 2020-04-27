@@ -3,6 +3,12 @@ package Day29_Wrapper_ArrayList;
 public class WrapperClass {
     public static void main(String[] args) {
 
+        /*
+        Primitive are dedicated (Loyal) to Wrapper classes, that's, We CANNOT assign primitives to
+        any Wrapper class but their own. Ex, int to Integer
+        However Wrapper classes are NOT dedicated (Loyal) to Primitives, that's, we CAN assign Wrapper
+        classes to any primitives. EX: Integer to int, byte, short ...
+         */
         int a = 100;
 
         Integer b = a; // Wrapper class, it only is Loyal to int
