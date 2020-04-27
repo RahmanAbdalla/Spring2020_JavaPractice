@@ -1,5 +1,6 @@
 package Resourses;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Library {
@@ -335,5 +336,17 @@ public class Library {
        return res;
     }
 
+    // finding max number in an ArrayList
+    public static int maxArrayList (ArrayList<Integer> list){
+
+        Integer max2 = Integer.MIN_VALUE;
+        for (int k=0; k< list.size(); k++){
+            // OR (Integer k=0; k< list.size(); k++)
+            if (list.get(k) > max2){
+                max2 = list.get(k);
+            }
+        }
+        return max2;
+    }
 
 }
