@@ -1,27 +1,44 @@
 package Day00_ME;
 
 import Resourses.Library;
-import sun.jvm.hotspot.jdi.ArrayReferenceImpl;
 
-import java.awt.*;
-import java.io.StringReader;
 import java.lang.reflect.Array;
-import java.text.DecimalFormat;
-import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.Scanner;
-public class hi {
+
+class Main {
+
 
     public static void main(String[] args) {
+        Scanner inp = new Scanner(System.in);
+        System.out.print("In:");
+        String s = inp.nextLine();
+        //write your code below
 
-        String friends [] = {"Adil", "Hunar", "Barzy"};
-        LocalDate birthdays [] = { LocalDate.of(1987,9,5),LocalDate.of(1989,8,2),
-                LocalDate.of(1990,3,7),};
+        s =s.toLowerCase();
+        String res ="";
+        for (int i=0; i < s.length(); i++){
 
-        for (int i=0; i < friends.length; i++) {
-
-                System.out.print(friends[i] +"'s birthday is: "+ birthdays[i]+" ");
-            System.out.println();
+            if (i %2 ==0){
+                res += s.substring(i,i+1).toLowerCase();
+            }else {
+                res += s.substring(i,i+1).toUpperCase();
+            }
         }
+        System.out.println(res);
+
     }
-}
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+

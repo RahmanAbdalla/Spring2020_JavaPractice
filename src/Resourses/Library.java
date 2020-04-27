@@ -319,4 +319,21 @@ public class Library {
          */
     }
 
+    //Changes the alternate case changes in a String
+    public static String alternateCase (String s){
+
+        s =s.toLowerCase();
+        String res ="";
+        for (int i=0; i < s.length(); i++){
+
+            if (i %2 ==0){
+                res += s.substring(i,i+1).toLowerCase();
+            }else {
+                res += s.substring(i,i+1).toUpperCase();
+            }
+        }
+       return res;
+    }
+
+
 }
