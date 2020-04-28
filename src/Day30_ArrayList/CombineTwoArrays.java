@@ -22,9 +22,6 @@ public class CombineTwoArrays {
                 list.add(arr2[k]);
             }
             System.out.println(list);
-
-
-
     }
 }
 
