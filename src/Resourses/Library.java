@@ -197,43 +197,43 @@ public class Library {
     }// end of Main Method
 
     //Counting characters
-    public static int frequency (String st1, String st2){
-           int count = 0;
-            for (int j = 0; j <= st1.length() - 1; j++) {
-                if (st1.contains(st2)) {
-                    count++;
-                    st1 = st1.replaceFirst(st2,"");
-                }
+    public static int frequency(String st1, String st2) {
+        int count = 0;
+        for (int j = 0; j <= st1.length() - 1; j++) {
+            if (st1.contains(st2)) {
+                count++;
+                st1 = st1.replaceFirst(st2, "");
+            }
         }
         return count;
     }
 
     //Frequency of Characters in a String
-    public static String frequencyOfChars(String str){
+    public static String frequencyOfChars(String str) {
 
-            String NonDup =  Library.removeDupl(str)  ;             //ABC
-            String result = ""; //contains the frequency of chars
+        String NonDup = Library.removeDupl(str);             //ABC
+        String result = ""; //contains the frequency of chars
 
-            for(int i =0; i < NonDup.length();i++){
-                String ch = ""+NonDup.charAt(i);//  "A"
-                int num =  Library.frequency(str, ch);
-                result += ch+num;
+        for (int i = 0; i < NonDup.length(); i++) {
+            String ch = "" + NonDup.charAt(i);//  "A"
+            int num = Library.frequency(str, ch);
+            result += ch + num;
                 /*
                 OR we can do this way
                 int num =  Library.frequency(str, ""+nonDup.charAt(i));//to find of frequency of non-Dup in main String
                 result += nonDup.charAt(i)+""+num;
                  */
-            }
-
-            return result;
         }
 
+        return result;
+    }
+
     // Finding unique character
-    public static String uniques(String str){ // "AABCDCD"
+    public static String uniques(String str) { // "AABCDCD"
         String result = ""; //ACD
-        for(int i=0; i < str.length(); i++){
-            int num = frequency(str, str.charAt(i) );
-            if( num == 1){
+        for (int i = 0; i < str.length(); i++) {
+            int num = frequency(str, str.charAt(i));
+            if (num == 1) {
                 result += str.charAt(i);
             }
         }
@@ -259,10 +259,10 @@ public class Library {
     public static int frequency(String words, char ch) {
 
         //  String arr [] = words.split(" ");
-        char ch1 [] = words.toCharArray();
-        int count=0;
-        for (char each : ch1){
-            if (each == ch){
+        char ch1[] = words.toCharArray();
+        int count = 0;
+        for (char each : ch1) {
+            if (each == ch) {
                 count++;
             }
         }
@@ -321,28 +321,28 @@ public class Library {
     }
 
     //Changes the alternate case changes in a String
-    public static String alternateCase (String s){
+    public static String alternateCase(String s) {
 
-        s =s.toLowerCase();
-        String res ="";
-        for (int i=0; i < s.length(); i++){
+        s = s.toLowerCase();
+        String res = "";
+        for (int i = 0; i < s.length(); i++) {
 
-            if (i %2 ==0){
-                res += s.substring(i,i+1).toLowerCase();
-            }else {
-                res += s.substring(i,i+1).toUpperCase();
+            if (i % 2 == 0) {
+                res += s.substring(i, i + 1).toLowerCase();
+            } else {
+                res += s.substring(i, i + 1).toUpperCase();
             }
         }
-       return res;
+        return res;
     }
 
     // finding max number in an ArrayList
-    public static int maxArrayList (ArrayList<Integer> list){
+    public static int maxArrayList(ArrayList<Integer> list) {
 
         Integer max2 = Integer.MIN_VALUE;
-        for (int k=0; k< list.size(); k++){
+        for (int k = 0; k < list.size(); k++) {
             // OR (Integer k=0; k< list.size(); k++)
-            if (list.get(k) > max2){
+            if (list.get(k) > max2) {
                 max2 = list.get(k);
             }
         }
@@ -350,7 +350,7 @@ public class Library {
     }
 
     // Reverse ListInteger
-    public static String reverseList (ArrayList<Integer> list) {
+    public static String reverseList(ArrayList<Integer> list) {
         String res = "";
         for (int k = list.size() - 1; k >= 0; k--) {
             res += list.get(k) + " ";
@@ -358,4 +358,18 @@ public class Library {
         return res;
     }
 
+    public static String seperateLetterandDigits(String str) {
+        String letters = "";
+        String digits = "";
+        char array[] = str.toCharArray();
+        for (char each : array) {
+            if (Character.isDigit(each)) {
+                digits += each;
+            } else if (Character.isAlphabetic(each)) {
+                letters += each;
+            }
+        }
+        System.out.println(digits);
+        return letters;
+    }
 }
