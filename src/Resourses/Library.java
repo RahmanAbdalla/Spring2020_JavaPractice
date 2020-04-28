@@ -349,4 +349,13 @@ public class Library {
         return max2;
     }
 
+    // Reverse ListInteger
+    public static String reverseList (ArrayList<Integer> list) {
+        String res = "";
+        for (int k = list.size() - 1; k >= 0; k--) {
+            res += list.get(k) + " ";
+        }
+        return res;
+    }
+
 }

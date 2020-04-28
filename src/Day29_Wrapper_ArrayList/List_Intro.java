@@ -32,7 +32,7 @@ public class List_Intro {
         System.out.println(list);
 
         int max = Integer.MIN_VALUE;
-        for (int each : list){
+        for (Integer each : list){
             if (each > max){
                 max = each;
             }
