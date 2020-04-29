@@ -70,7 +70,7 @@ public class ArrayList_Methods {
        // boolean b = list5.remove(1); ERROR coz this method accepts obj, but int is primitive
         Integer a=2;
         boolean b1 = list5.remove(a);
-        System.out.println(b1);//true coz we have object 2 in the list
+        System.out.println(b1);//true coz we have object 2 in the list which is 3
         Integer a2 =5;
         boolean b2 = list5.remove(a2);
         System.out.println(b2);// false coz we don't have index 5 in the list
