@@ -9,18 +9,24 @@ public class ArrayList_Methods2 {
         list.add("A");
         list.add("B");
         list.add("C");
+        list.add("G");
+        list.add("C");
+        list.add("D");
 
+        System.out.println(list);
         //list.remove(1);
-        String str ="B";
-        boolean b1 = list.remove(str);// TRUE coz we have obj "B" in the ArrayList
+        String str ="G";
+        boolean b1 = list.remove(str);// TRUE coz we have obj "G" in the ArrayList
         System.out.println(b1);//true
         String str2 ="Z";
         boolean b2 = list.remove(str2); // FALSE coz we DON'T have obj "Z" in the ArrayList
         System.out.println(b2);//false
 
+        System.out.println(list);//[A, B, C, C, D]
+        list.remove(list.lastIndexOf("C"));
+        System.out.println(list); //[A, B, C, D]
         // ************ clear() METHOD *****************
         // this methods cleans everything in the ArrayList and changes the size to 0
-        System.out.println(list);
         list.clear();
         System.out.println(list); // [ ] and  the size becomes 0
 

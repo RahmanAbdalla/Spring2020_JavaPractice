@@ -29,7 +29,7 @@ public class ArrayList_Methods2 {
             System.out.println(list1);
 
 
-            // comninint two arrays into list
+            // combining two arrays into list
 
             System.out.println("==========================================");
             int[] arr1 = {1,2,3,4,5};
