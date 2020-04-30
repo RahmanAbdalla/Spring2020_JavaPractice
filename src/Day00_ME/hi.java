@@ -1,37 +1,58 @@
 package Day00_ME;
 
-import Resourses.Library;
-
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Arrays;
-import java.util.Scanner;
 
 class Main {
+        public static ArrayList<Integer> removeInst(ArrayList<Integer> r, Integer n) {
 
-        public static void main(String[] args) {
-
-                Scanner scan = new Scanner(System.in);
-
-                int num = scan.nextInt();
-                if (num < 0) {
-                        System.out.println("Negative small");
-                }else if (num > 1000000){
-                        System.out.println("Positive large");
-                }else if (num == 0) {
-                        System.out.println("zero");
-                } else if (num > 0 && num <1000000){
-                                System.out.println("Positive");
-                        }else {
-                                System.out.println("negative");
-                        }
-
-
-
-
-
+                return r;
         }
-}
+
+
+                public static void main (String[]args)
+                {
+
+                        ArrayList<Integer> arr = new ArrayList<>();
+                        Integer[] nums = new Integer[]{3,4,3,3};
+                        arr.addAll(Arrays.asList(nums));
+
+                        System.out.print(removeInst(arr, 3));
+
+
+                }//end main
+        }
+
+        //create your method below
+  /*      public static ArrayList<String> removeAll (ArrayList<String> wordList, ArrayList<String> targetWord){
+
+                for (String each : targetWord){
+                        wordList.removeAll(Arrays.asList(each));
+                }
+
+                return wordList;
+        }
+
+   */
+
+
+
+        /*
+        public static void repeatAL ( ArrayList<Boolean> list){
+
+                System.out.println(list);
+                ArrayList<Boolean> list2 = new ArrayList<>();
+                for (Boolean each : list) {
+                        list2.add(each);
+                }
+                for (Boolean each2 : list2) {
+                        list.add(list.size(),each2);
+                }
+                System.out.println(list);
+        }
+
+         */
+
 
 
 
