@@ -12,10 +12,12 @@ class Main {
     public static void main(String[] args) {
 
         ArrayList<Integer> list1 =  new   ArrayList<>( );
-        list1.addAll(Arrays.asList(4,12,3,4,60,60,70,90,70,40,50,50));
+        list1.addAll(Arrays.asList(4,12,3,4,60,60,70,70,40,50,50));
 
 
 
+        int max = Library.maxArrayList(list1);
+        System.out.println(max);
 
     }
 
