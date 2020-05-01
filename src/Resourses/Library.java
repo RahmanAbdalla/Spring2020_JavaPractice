@@ -2,6 +2,7 @@ package Resourses;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
 public class Library {
 
@@ -372,4 +373,16 @@ public class Library {
         System.out.println(digits);
         return letters;
     }
+
+    //Finding maximum number from an ArrayList
+    public static int maxArraylist (ArrayList<Integer> list1) {
+        return Collections.max(list1);
+    }
+
+    //Finding minimum number from an ArrayList
+    public static int minArraylist (ArrayList<Integer> list1) {
+        return Collections.min(list1);
+
+    }
+
 }

@@ -1,27 +1,35 @@
 package Day00_ME;
 
+import Resourses.Library;
+import sun.plugin.javascript.navig.Array;
+
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
 class Main {
-        public static ArrayList<Integer> removeInst(ArrayList<Integer> r, Integer n) {
 
-                return r;
-        }
+    public static void main(String[] args) {
 
-
-                public static void main (String[]args)
-                {
-
-                        ArrayList<Integer> arr = new ArrayList<>();
-                        Integer[] nums = new Integer[]{3,4,3,3};
-                        arr.addAll(Arrays.asList(nums));
-
-                        System.out.print(removeInst(arr, 3));
+        ArrayList<Integer> list1 =  new   ArrayList<>( );
+        list1.addAll(Arrays.asList(4,12,3,4,60,60,70,90,70,40,50,50));
 
 
-                }//end main
-        }
+
+
+    }
+
+}
+
+
+
+
+                //String find_tst = search(arr,"foo");
+              //  System.out.print(find_tst);//foo bar
+
+
+        //end main
+
 
         //create your method below
   /*      public static ArrayList<String> removeAll (ArrayList<String> wordList, ArrayList<String> targetWord){
