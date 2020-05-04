@@ -25,7 +25,6 @@ public class WrapperClass {
 
         Integer I1 = 200;
         int a2 = I1;
-
         Byte B1 = 126; //But there's NO restriction when assigning a wrapper class to the primitives
         int a3 = B1;
         System.out.println(a3); // 126

@@ -14,7 +14,6 @@ public class Uniques {
         Character [] chars = {'A','A','B','C','D','C', 'D'};
 
         ArrayList<Character> charlist = new ArrayList<>(Arrays.asList(chars));
-
         ArrayList<Character> resList = new ArrayList<>();
 
         for (Character each : charlist) {

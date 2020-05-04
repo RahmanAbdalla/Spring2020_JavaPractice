@@ -25,6 +25,7 @@ public class ArrayList_Methods2 {
         System.out.println(list);//[A, B, C, C, D]
         list.remove(list.lastIndexOf("C"));
         System.out.println(list); //[A, B, C, D]
+
         // ************ clear() METHOD *****************
         // this methods cleans everything in the ArrayList and changes the size to 0
         list.clear();

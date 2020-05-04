@@ -26,7 +26,7 @@ public class FindingMaxAndMin {
         }
         */
 
-        //write a program that can remove the second maximum number from an ArrayList
+        //write a program that can remove the second min number from an ArrayList
 
         ArrayList<Integer> list2 =  new   ArrayList<>( );
         list2.addAll(Arrays.asList(4,12,3,4,60,60,3,7,40,50,4,50));

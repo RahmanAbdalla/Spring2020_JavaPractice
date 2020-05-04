@@ -29,7 +29,7 @@ public class ArrayList_Methods {
         System.out.println(b1);//False,  coz the order of the element is different, once we sort the it gives TRUE
 
 
-        //********************* sort() METHOD *************************
+        //********************* Collections.sort() METHOD *************************
         Collections.sort(list1);
         Collections.sort(list2);
         boolean b2 = list1.equals(list2);

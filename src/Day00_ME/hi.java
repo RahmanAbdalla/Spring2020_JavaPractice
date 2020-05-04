@@ -1,50 +1,32 @@
 package Day00_ME;
 
-import Resourses.Library;
-import sun.plugin.javascript.navig.Array;
-
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.function.Predicate;
 
 class Main {
 
     public static void main(String[] args) {
 
-        ArrayList<Integer> list1 =  new   ArrayList<>( );
-        list1.addAll(Arrays.asList(4,12,3,4,60,60,70,70,40,50,50));
+        String str = "harly";
+        // String ending = str.substring(str.length() - 2);
 
 
 
-        int max = Library.maxArrayList(list1);
-        System.out.println(max);
 
     }
 
 }
 
 
-
-
-                //String find_tst = search(arr,"foo");
-              //  System.out.print(find_tst);//foo bar
-
-
-        //end main
-
-
-        //create your method below
-  /*      public static ArrayList<String> removeAll (ArrayList<String> wordList, ArrayList<String> targetWord){
-
-                for (String each : targetWord){
-                        wordList.removeAll(Arrays.asList(each));
-                }
-
-                return wordList;
+        /* OR
+          ArrayList<Character> random2 = new ArrayList<>();
+        for (int s=0; s < str.length(); s++){
+            random2.add(str.charAt(s));
         }
-
-   */
-
+         */
 
 
         /*
@@ -62,6 +44,7 @@ class Main {
         }
 
          */
+
 
 
 

@@ -43,7 +43,7 @@ public class ParsMethods {
         System.out.println(! b);
 
         // but if we give anything else other than True or False then compiler by default return false
-        String str4 = "There are 12 month in a year"; // this expression is true but ...
+        String str4 = "There are 12 months in a year"; // this expression is true but ...
         boolean b2 = Boolean.parseBoolean(str4); // returns False though the string expression is true
         System.out.println(b2); // False, but we can make it true by adding (!)
 

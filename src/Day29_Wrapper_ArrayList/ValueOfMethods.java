@@ -9,6 +9,8 @@ public class ValueOfMethods {
         String str1 = "123";
         Integer a = Integer.valueOf(str1); // it returns wrapper class NOT primitive, Unlike Parsing
         System.out.println(a);
+        int n = a; // Unboxing. wrapper class --> primitive
+        System.out.println(n);
 
         double d1 = Integer.valueOf(str1);// Unboxing coz we assign wrapper class to primitive
         System.out.println(d1);
@@ -58,10 +60,14 @@ public class ValueOfMethods {
         System.out.println("================================");
         // All primitives' values are default, But wrapper class values are ALL (null) by default
         boolean [] arr = new boolean[3];
+        int [] arr1 = new int[3];
+        String [] arr2 = new String[3];
         System.out.println(Arrays.toString(arr)); //[false, false, false]
+        System.out.println(Arrays.toString(arr1)); // [0, 0, 0]
+        System.out.println(Arrays.toString(arr2)); // [null, null, null]
 
-        Character [] arr2 = new Character[3];
-        System.out.println(Arrays.toString(arr2));// [null, null, null]
+        Character [] arr3 = new Character[3];
+        System.out.println(Arrays.toString(arr3));// [null, null, null]
 
 
 

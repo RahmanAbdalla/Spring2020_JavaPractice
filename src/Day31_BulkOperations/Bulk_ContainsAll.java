@@ -31,12 +31,12 @@ public class Bulk_ContainsAll {
         // But we MUST use Arrays.asList() inside containsAll() body coz containsAll() by itself doesn't take
         // object but Array.asList collects objects so we can put it inside the body
         boolean b1 = list1.containsAll(Arrays.asList(10,20,30));
-        System.out.println(b1); // false
+        System.out.println(b1); // true
 
         // OR we can make an array of Integer
-        Integer [] data = {10,30,40};
+        Integer [] data = {10,45,40};
         boolean b2 = list1.containsAll(Arrays.asList(data));
-        System.out.println(b2);
+        System.out.println(b2); //false
 
 
     }

@@ -33,8 +33,8 @@ public class ArrayList_Methods {
         ArrayList<String> list2 = new ArrayList<>();
         list2.add("A");
         list2.add("B");
-        list2.add(1,"C");
-        list2.add(1,"D");
+        list2.add(1,"C"); // A,C,B
+        list2.add(1,"D"); // A,D,C,B
         System.out.println(list2);// [A, D, C, B]
 
         //set method  get this result {A, D, E, F}
@@ -58,7 +58,7 @@ public class ArrayList_Methods {
 
         //2. remove(object)
         list3.remove(2);// this removes the obj we have in the list NOT the index
-        System.out.println(list3); // {1,3,4}
+        System.out.println(list3); // {1,2}
 
         //3. remove(boolean) used to know if the element removed is true or not
 

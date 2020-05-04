@@ -3,6 +3,7 @@ package Day32_Predicate;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.function.Predicate;
 
 public class Lambda_Expressions {
@@ -35,7 +36,7 @@ public class Lambda_Expressions {
 
         // remove all charcters which are digit
 
-        Predicate<Character> removeDigit2 = d -> d >=48 && d <=57;
+        Predicate<Character> removeDigit2 = d -> Character.isDigit(d);
       //OR  Predicate<Character> removeDigit = d -> d >=48 && d <=57;
         ArrayList<Character> chars = new ArrayList<>();
         chars.addAll(Arrays.asList('A', 'B', '3', '4','5', '@','&','Z'));
@@ -52,11 +53,31 @@ public class Lambda_Expressions {
 
         System.out.println("=============================");
 
-        Predicate<Character> removeExceptsp = d ->  Character.isDigit(d);
+
+
+        // Write a program to print only the special characters
+        Predicate<Character> removeExceptsp = d ->  Character.isDigit(d) || d >=65 && d <=90;
         ArrayList<Character> random = new ArrayList<>();
         random.addAll(Arrays.asList('A', 'B', '3', '4','5', '@','&','Z'));
         random.removeIf(removeExceptsp);
         System.out.println(random);
+
+/*
+        1. write a program that can return the unique objects from a anArray List of Integers
+        Ex:
+        list: {1,1,2,3,4,5,5}
+        sout(list); ==> {2,3,4};
+        Note: 1. DO NOT use any extra arrayList
+        2. DO NOT use any loops
+        3. do not use any sort method
+        4. use predicate only and collections methods only */
+
+        ArrayList<Integer> list5 = new ArrayList<>();
+        list5.addAll(Arrays.asList(1,1,2,2,3,4,5,6,6,7,7,8,8,9,10,10));
+
+        list5.removeIf(s -> Collections.frequency(list5,s)!=1);
+        System.out.println(list5);
+
 
     }
 }

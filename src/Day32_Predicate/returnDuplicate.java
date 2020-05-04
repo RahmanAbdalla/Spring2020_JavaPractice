@@ -18,24 +18,27 @@ public class returnDuplicate {
        */
 
         ArrayList<String> list = new ArrayList<>();
-        list.addAll(Arrays.asList("Rahman", "Barzy", "Rahman", "Hunar", "Barzy", "Adil"));
+        list.addAll(Arrays.asList("R", "B", "R", "H", "B", "A"));
 
         ArrayList<String> list2 = new ArrayList<>();
 
         /// First Solution
-        for (String each2 : list) {
+       for (String each2 : list) {
             int count = 0;
             for (String each : list) {
                 if (each2.equals(each)) {
                     count++;
                 }
             }
-            if (count > 1 && !(list2.contains(each2))) {// we need to give another condition that if list2 doesn't
+
+           if (count > 1 && !(list2.contains(each2))) {// we need to give another condition that if list2 doesn't
                 // contain the word then add
                 list2.add(each2);
             }
         }
         System.out.println(list2);
+
+
 
         System.out.println("========================");
 
