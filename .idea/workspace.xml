@@ -5,105 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="785e2073-801d-4066-9f9b-a0d03de38bd2" name="Default Changelist" comment="rahman">
-      <change afterPath="$PROJECT_DIR$/src/Day33_CustomClass/BankAccObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day33_CustomClass/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day33_CustomClass/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day33_CustomClass/ReturnDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day33_CustomClass/SeparateCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day33_CustomClass/SeparateCharacters2WithLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day33_CustomClass/Uniques.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day33_CustomClass/bankAcoount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day33_CustomClass/carObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day33_CustomClass/carObject2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day33_CustomClass/catObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day34_CustomClass/BankOfAmerica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day34_CustomClass/CapitalOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day34_CustomClass/Developers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day34_CustomClass/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day34_CustomClass/ObjectMemory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day34_CustomClass/ScrumMaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day34_CustomClass/ScrumTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day34_CustomClass/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day34_CustomClass/StudentsObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day34_CustomClass/Testers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day34_CustomClass/carpet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day34_CustomClass/carpetObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day34_CustomClass/dogObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day35_Static/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day35_Static/MyOffers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day35_Static/offer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day35_Static/staticMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day35_Static/staticPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day35_Static/staticPractice2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day35_Static/staticVariables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day35_Static/staticVariables2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day35_Static/student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day35_Static/studentObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day36_StaticBlock/CapitalOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day36_StaticBlock/HumanResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day36_StaticBlock/StaticBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day36_StaticBlock/StaticBlock2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day36_StaticBlock/StaticBlock3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day36_StaticBlock/StaticBlock4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day36_StaticBlock/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day37_Constructors/BankOfBawanoor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day37_Constructors/ConstructorIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day37_Constructors/CybertekStudents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day37_Constructors/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day37_Constructors/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day37_Constructors/HumanResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day37_Constructors/ImportStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day37_Constructors/InstanceBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day37_Constructors/car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day37_Constructors/carObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day37_Constructors/studentObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day37_Constructors/students.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day38_Constructors/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day38_Constructors/ConstructorCalls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day38_Constructors/ConstructorCalls2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day38_Constructors/ConstructorCalls3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day38_Constructors/ConstructorPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day38_Constructors/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day38_Constructors/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day38_Constructors/SalaryCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day38_Constructors/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day38_Constructors/renters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_06_2020/AppleINC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_06_2020/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_06_2020/Developers2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_06_2020/DevelopersObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_06_2020/PO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_06_2020/ScrumTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_06_2020/ScrumTeam2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_06_2020/Tester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_06_2020/Testers2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_06_2020/TestersObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_06_2020/instanceVariables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_13_2020/Constructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_13_2020/Constructor_Overload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_13_2020/InstanceTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_13_2020/Instances.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_13_2020/StaticBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_13_2020/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_13_2020/statics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day39_AccessModifier/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day39_AccessModifier/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day00_ME/LitterToGallons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day00_ME/LitterToGallons.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day00_ME/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day20_ArraysContinue/Arrays_Equal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day20_ArraysContinue/Arrays_Equal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day23_Methods/Methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day23_Methods/Methods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day28_DateTime/DateTime_Formatting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day28_DateTime/DateTime_Formatting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day28_DateTime/Time.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day28_DateTime/Time.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day29_Wrapper_ArrayList/WrapperClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day29_Wrapper_ArrayList/WrapperClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day32_Predicate/Lambda_Expressions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day32_Predicate/Lambda_Expressions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day00_ME/LitterToGallons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day00_ME/LitterToGallons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day00_ME/hi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day19_Arrays/Arrays_Practice1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day19_Arrays/Arrays_Practice1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day20_ArraysContinue/Arrays_Equal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day20_ArraysContinue/Arrays_Equal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day23_Methods/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day23_Methods/Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day28_DateTime/DateTime_Formatting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day28_DateTime/DateTime_Formatting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day28_DateTime/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day28_DateTime/Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day32_Predicate/Lambda_Expressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day32_Predicate/Lambda_Expressions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day21_MultiDimentionalArrays/Longest_Shortest_Words.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day21_MultiDimentionalArrays/Longest_Shortest_Words.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day35_Static/staticPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day35_Static/staticPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day35_Static/staticVariables.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day35_Static/staticVariables.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day35_Static/staticVariables2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day35_Static/staticVariables2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day21_MultiDimentionalArrays/Longest_Shortest_Words.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day21_MultiDimentionalArrays/Longest_Shortest_Words.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day21_MultiDimentionalArrays/Multi_DImentionalArrys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day21_MultiDimentionalArrays/Multi_DImentionalArrys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day35_Static/staticMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day35_Static/staticMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day35_Static/staticPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day35_Static/staticPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day35_Static/staticPractice2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day35_Static/staticPractice2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day35_Static/staticVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day35_Static/staticVariables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day35_Static/staticVariables2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day35_Static/staticVariables2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,13 +55,13 @@
       <recent name="Resourses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UniqueCharacters">
-    <configuration name="Arrays_Practice1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day19_Arrays.Arrays_Practice1" />
+  <component name="RunManager" selected="Application.staticPractice2">
+    <configuration name="EmployeeObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day39_AccessModifier.EmployeeObject" />
       <module name="Spring2020b17_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day19_Arrays.*" />
+          <option name="PATTERN" value="Day39_AccessModifier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arrays_practice2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day19_Arrays.Arrays_practice2" />
+    <configuration name="staticPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day35_Static.staticPractice" />
       <module name="Spring2020b17_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day19_Arrays.*" />
+          <option name="PATTERN" value="Day35_Static.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,19 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice" />
-      <module name="Spring2020b17_Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentsNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day19_Arrays.StudentsNames" />
+    <configuration name="staticPractice2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day35_Static.staticPractice2" />
       <module name="Spring2020b17_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day19_Arrays.*" />
+          <option name="PATTERN" value="Day35_Static.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,12 +95,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day19_Arrays.UniqueCharacters" />
+    <configuration name="staticVariables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day35_Static.staticVariables" />
       <module name="Spring2020b17_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day19_Arrays.*" />
+          <option name="PATTERN" value="Day35_Static.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="staticVariables2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day35_Static.staticVariables2" />
+      <module name="Spring2020b17_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day35_Static.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UniqueCharacters" />
-        <item itemvalue="Application.StudentsNames" />
-        <item itemvalue="Application.Arrays_practice2" />
-        <item itemvalue="Application.Arrays_Practice1" />
-        <item itemvalue="Application.Practice" />
+        <item itemvalue="Application.staticPractice2" />
+        <item itemvalue="Application.EmployeeObject" />
+        <item itemvalue="Application.staticPractice" />
+        <item itemvalue="Application.staticVariables2" />
+        <item itemvalue="Application.staticVariables" />
       </list>
     </recent_temporary>
   </component>
@@ -256,10 +177,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="305" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587530705137" />
-    <state width="1388" height="195" key="GridCell.Tab.0.bottom" timestamp="1589424008414">
+    <state width="1388" height="195" key="GridCell.Tab.0.bottom" timestamp="1589468121276">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="195" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589424008414" />
+    <state width="1388" height="195" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589468121276" />
     <state width="919" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1588345045979" />
     <state width="1388" height="226" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1584156106370" />
     <state width="1388" height="227" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1586219180707" />
@@ -267,10 +188,10 @@
     <state width="1388" height="195" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1588689889499" />
     <state width="1388" height="195" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1589082598454" />
     <state width="1348" height="187" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1583524580728" />
-    <state width="1388" height="195" key="GridCell.Tab.0.center" timestamp="1589424008411">
+    <state width="1388" height="195" key="GridCell.Tab.0.center" timestamp="1589468121274">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="195" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589424008411" />
+    <state width="1388" height="195" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589468121274" />
     <state width="919" height="195" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1588345045969" />
     <state width="1388" height="226" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1584156106368" />
     <state width="1388" height="227" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1586219180706" />
@@ -278,10 +199,10 @@
     <state width="1388" height="195" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1588689889495" />
     <state width="1388" height="195" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1589082598453" />
     <state width="1348" height="187" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1583524580726" />
-    <state width="1388" height="195" key="GridCell.Tab.0.left" timestamp="1589424008409">
+    <state width="1388" height="195" key="GridCell.Tab.0.left" timestamp="1589468121271">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="195" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589424008409" />
+    <state width="1388" height="195" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589468121271" />
     <state width="919" height="195" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1588345045967" />
     <state width="1388" height="226" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1584156106366" />
     <state width="1388" height="227" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1586219180705" />
@@ -289,10 +210,10 @@
     <state width="1388" height="195" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1588689889474" />
     <state width="1388" height="195" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1589082598452" />
     <state width="1348" height="187" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1583524580725" />
-    <state width="1388" height="195" key="GridCell.Tab.0.right" timestamp="1589424008413">
+    <state width="1388" height="195" key="GridCell.Tab.0.right" timestamp="1589468121275">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="195" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589424008413" />
+    <state width="1388" height="195" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589468121275" />
     <state width="919" height="195" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1588345045975" />
     <state width="1388" height="226" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1584156106369" />
     <state width="1388" height="227" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1586219180706" />

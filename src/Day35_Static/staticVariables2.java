@@ -9,7 +9,11 @@ public class staticVariables2 {
 
         staticVariables2 obj1 = new staticVariables2();
         obj1.insVariable = 300;
-        obj1.staticVariable = 400;
+        obj1.staticVariable = 400;// this way OR
+        /* OR this way
+        staticVariables2.staticVariable=400;
+        staticVariable=400;
+         */
 
         staticVariables2 obj2 = new staticVariables2();
 
@@ -20,11 +24,11 @@ public class staticVariables2 {
         System.out.println();
 
         System.out.println(  obj1.staticVariable );  // 400
-        System.out.println( obj2.staticVariable );
+        System.out.println( obj2.staticVariable ); // 400
 
         System.out.println();
 
-        System.out.println(staticVariables2.staticVariable);// static variables can be called through the class name
+        System.out.println(staticVariables2.staticVariable);//400, static variables can be called through the class name
 
         // BUT  instance variable CANNOT be called through the class name
      //   System.out.println(staticVariables2.insVariable);  WRONG

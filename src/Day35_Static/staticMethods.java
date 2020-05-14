@@ -21,7 +21,7 @@ public class staticMethods {
 
     }
 
-    public void method (){
+    public void method (){// instance method
         System.out.println(a);// this method accepts instance variable (a) coz the method is instance too
         System.out.println(b);// this method also accepts the static variable (b) above coz it's a global variable
     }

@@ -22,19 +22,19 @@ public class staticVariables {
         staticVariables obj1 = new staticVariables();
         obj1.a2 = 1000;
 
-        obj1.a3 = 4000;
+        a3 = 4000;// we can call the variable directly like this. OR
 
         staticVariables obj2 = new staticVariables();
         obj2.a2 = 2000;
 
-        obj2.a3 = 5000;
+       staticVariables.a3 = 5000; //OR call it through class name like this
 
 
         System.out.println( obj1.a2 );
         System.out.println( obj2.a2 );
 
-        System.out.println( obj1.a3 ); // 5000
-        System.out.println( obj2.a3 ); // 5000
+        System.out.println( a3 ); // 5000
+        System.out.println( a3 ); // 5000
 
 
     }

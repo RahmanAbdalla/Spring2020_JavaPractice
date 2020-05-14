@@ -12,7 +12,7 @@ public class Longest_Shortest_Words {
         int maxlength = text[0].length();// we assume that 1st element of the array has the longest length
         int minength2 = text[0].length();
 
-        String longest = "";
+        String longest = " ";
         String shortest = "";
 
         for (int k = 0; k < text.length; k++) {
@@ -20,6 +20,7 @@ public class Longest_Shortest_Words {
             if (text[k].length() > maxlength) {
                 maxlength = text[k].length();//when the next element has longest length, we replace
                 //  the previous one
+
                 longest = text[k];// then we need to save it here so we can retrieve it later
             }
             if (text[k].length() < minength2){

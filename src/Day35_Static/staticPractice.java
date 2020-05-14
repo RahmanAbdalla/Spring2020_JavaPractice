@@ -11,24 +11,32 @@ public class staticPractice {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
+       // Scanner scan = new Scanner(System.in); we don't need to declare a new scanner again
+        int sum=0;
         System.out.println("Enter num1");
         int num1 = scan.nextInt();
-
         System.out.println("Enter num2");
         int num2 = scan.nextInt();
-        System.out.println("Sum is: "+num1 +num2);
+
+        sum+= num1+num2;
+        System.out.println("Sum is: "+sum);
+
+
+        staticPractice obj = new staticPractice();
+        obj.method1();
 
     }
 
     public void method1 (){
 
-        Scanner scan = new Scanner(System.in);
+     //   Scanner scan = new Scanner(System.in);  we don't need to declare a new scanner again
+        int sum=0;
         System.out.println("Enter num1");
         int num1 = scan.nextInt();
-
         System.out.println("Enter num2");
         int num2 = scan.nextInt();
-        System.out.println("Multiplication is: "+num1 +num2);
+
+        sum+= num1+num2;
+        System.out.println("Sum is: "+sum);
     }
 }

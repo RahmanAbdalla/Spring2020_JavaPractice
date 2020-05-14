@@ -9,8 +9,8 @@ public class Multi_DImentionalArrys {
         int []arr = {1,2,3};
                          //  0 1 2     0 1 2 3 4
         int [][] arr2D = {  {1,2,3} , {3,4,5,6,7}  };
-                        //     0    ,      1     ,       2
-        System.out.println(arr2D.length);// length is 3
+                        //     0    ,      1
+        System.out.println(arr2D.length);// length is 2
 
         // we can retrieve arr2D index and assign them to single dimensional array: LIKE THIS
 
