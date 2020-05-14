@@ -2,6 +2,7 @@ package Day20_ArraysContinue;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Collections;
 
 public class Arrays_Equal {
     public static void main(String[] args) {
@@ -28,6 +29,9 @@ public class Arrays_Equal {
         int []arr6 = {1,2,3,4};
         boolean result4 = Arrays.equals(arr5,arr6);
         System.out.println(result4);//false coz of different length
+
+
+
 
     }
 }

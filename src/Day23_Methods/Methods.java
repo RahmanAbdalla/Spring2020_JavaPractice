@@ -6,6 +6,7 @@ public class Methods {
         printHello5Times();
         printHelloUniverse();
 
+
     }
 
     public static void printHello5Times () {

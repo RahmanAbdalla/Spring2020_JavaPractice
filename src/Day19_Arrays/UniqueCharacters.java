@@ -59,8 +59,10 @@ public class UniqueCharacters {
            String word = "ABBDFFS";
            char ch []= word.toCharArray();
            String res= "";
-           int count3=0;
+
            for (char each2 : ch) {
+
+               int count3=0;
                for (char each : ch) {
                    if (each == each2) {
                        count3++;

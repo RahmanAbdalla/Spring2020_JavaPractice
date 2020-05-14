@@ -13,7 +13,7 @@ public class Arrays_Practice1 {
         System.out.println(name1);//Adil
 
         String result="";
-        for (int i=0; i <=classmates.length-1; i++) {
+        for (int i=0; i < classmates.length; i++) {
                        // i <= 4   We can also do this
                  result +=classmates[i]+" ";
         }

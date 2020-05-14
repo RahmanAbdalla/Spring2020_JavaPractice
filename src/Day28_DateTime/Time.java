@@ -12,5 +12,6 @@ public class Time {
 
         LocalTime custom = LocalTime.of(14,45,50);
         System.out.println(custom);
+
     }
 }

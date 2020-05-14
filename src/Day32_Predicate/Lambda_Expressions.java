@@ -29,17 +29,19 @@ public class Lambda_Expressions {
         ArrayList<String> names = new ArrayList<>();
         names.addAll(Arrays.asList("Rahman", "rarzy", "rdil","runar", "Zipper", "Zee"));
 
-        Predicate <String> startwithr = n -> n.startsWith("r") || n.startsWith("Z");
-        names.removeIf(startwithr);
+        Predicate <String> startwith = n -> n.startsWith("r") || n.startsWith("Z");
+        names.removeIf(startwith);
         System.out.println(names);
 
 
-        // remove all charcters which are digit
+        // remove all characters which are digit
 
-        Predicate<Character> removeDigit2 = d -> Character.isDigit(d);
+        Predicate<Character> removeDigit2 = d ->  Character.isDigit(d);
       //OR  Predicate<Character> removeDigit = d -> d >=48 && d <=57;
         ArrayList<Character> chars = new ArrayList<>();
         chars.addAll(Arrays.asList('A', 'B', '3', '4','5', '@','&','Z'));
+
+
 
         chars.removeIf(removeDigit2);
         System.out.println(chars);
