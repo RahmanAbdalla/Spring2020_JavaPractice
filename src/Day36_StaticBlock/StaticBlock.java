@@ -6,10 +6,20 @@ public class StaticBlock {
 
     public static void main(String[] args) {
         System.out.println("Hello Cybertek");
+
+        StaticBlock obj = new StaticBlock();
+        obj.instanceMethod();
+
+        customMethod();
+
     }
 
-    public static void customMethod(){ // this is not printed coz we have to call it through the Main Method
-        System.out.println("Hey");
+    public  void instanceMethod(){ // this is not going to printed coz we have to call it through the Main Method
+        System.out.println("Hey");     // like in line 9
+    }
+
+    public static void customMethod(){
+        System.out.println("Custom method");
     }
 
 

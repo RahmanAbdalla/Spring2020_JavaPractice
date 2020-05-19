@@ -14,9 +14,12 @@ public class StaticBlock2 {
     static Tester tester1 = new Tester();// if we don't initialize this inside the Static Block, but inside the
     //Main Method then later when we call it though the Static class the values will be (null) and (zero)s.x
 
+
     public static void main(String[] args) {
         tester1.setInfo("Rahman","SDET",120000,88443);
         System.out.println(tester1);
+        System.out.println(a);//100
+        System.out.println(b);//200
     }
 
 
@@ -33,7 +36,12 @@ public class StaticBlock2 {
         } else {
             System.out.println(b);
         }
-        tester1.setInfo("Rahman", "SDET", 120000, 88443);
+       tester1.setInfo("Adil", "SDET", 120000, 88443);
+
+        System.out.println(tester1); // this prints null and 0 coz we haven't initialized the tester1 here
+
 
     }
+
+
     }

@@ -4,6 +4,8 @@ public class InstanceBlock {
 
     static {
         System.out.println("Static block");
+        InstanceBlock obj1 = new InstanceBlock();// prints two instance block here
+
     }
 
     {// it only runs when its obj is created
@@ -11,8 +13,8 @@ public class InstanceBlock {
     }
 
     public static void main(String[] args) {
-        InstanceBlock obj1 = new InstanceBlock();
-        InstanceBlock obj2 = new InstanceBlock();
+        InstanceBlock obj1 = new InstanceBlock();// prints two instance block here
+        InstanceBlock obj2 = new InstanceBlock();// prints two instance block here
     }
 
     {

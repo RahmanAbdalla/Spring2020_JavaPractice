@@ -7,6 +7,7 @@ public class Employee {
     long id;
     double salary;
     char gender;
+    static String companyName ="BoA";
 
     public Employee (String name){
         this.name = name;
@@ -33,7 +34,8 @@ public class Employee {
 
 
         public String toString(){
-        return "Name: "+name+", Job Title: "+jobTitle+", ID: "+id+", Salary: $"+salary+", Gender: "+gender;
+        return "Name: "+name+", Job Title: "+jobTitle+
+                ", Company Name: "+companyName+", ID: "+id+", Salary: $"+salary+", Gender: "+gender;
     }
 
 }
@@ -46,11 +48,14 @@ class EmployeeObject{
         Employee employee2= new Employee("Hunar","SDET");
         Employee employee3= new Employee("Hunar","SDET",222111);
         Employee employee4= new Employee("Hunar","SDET",222111,130_000,'M');
+        Employee employee5= new Employee("Adil","SDET",89189,125_000,'M');
+
 
         System.out.println(employee1);
         System.out.println(employee2);
         System.out.println(employee3);
         System.out.println(employee4);
+        System.out.println(employee5);
 
 
     }
