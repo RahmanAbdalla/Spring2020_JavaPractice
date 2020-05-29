@@ -32,7 +32,24 @@ public class ArrayPresentation {
         //2-Write a program that can sort an int array in Ascending order without
         // using the sort method of the Arrays class
 
-        int arr2[] = {40, 2, -7, 5, 9, 46, 2, 4, 90, 73,};
+        int arr2[] = {3,1,2};
+/*
+        int temp1=0;
+        for (int i=0; i < arr2.length; i++){ //To take one element
+
+            for (int k=i+1; k<arr2.length; k++){ // compare the element that have been taken in a[i]
+
+                if (arr2[i] < arr2[k]){//To Swap if element compared is greater than other element
+
+                    temp1 = arr2[i];
+                    arr2[i] = arr2[k];
+                    arr2[k] = temp1;
+                }
+            }
+            System.out.print(arr2[i]);
+        }
+
+ */
         ArrayList<Integer> list = new ArrayList();
         for (int each : arr2) {
 
@@ -65,12 +82,28 @@ public class ArrayPresentation {
         System.out.println(Arrays.toString(arr2));
 
 
+
         System.out.println("======================================");
 
         //3- Write a program that can sort an int array in descending order without
         // using the sort method of the Arrays class
 
         int arr3[] = {40, 2, -7, 5, 9, 46, 2, 4, 90, 73,};
+
+        int temp1=0;
+        for (int i=0; i < arr2.length; i++){ //To take one element
+
+            for (int k=i+1; k<arr2.length; k++){ // compare the element that have been taken in a[i]
+
+                if (arr2[i] < arr2[k]){//To Swap if element compared is greater than other element
+
+                    temp1 = arr2[i];
+                    arr2[i] = arr2[k];
+                    arr2[k] = temp1;
+                }
+            }
+            System.out.print(arr2[i]);
+        }
 
         ArrayList<Integer> list1 = new ArrayList();
 
