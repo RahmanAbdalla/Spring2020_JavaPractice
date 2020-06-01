@@ -16,6 +16,7 @@ public class try_catchBlock {
 
         try {
             System.out.println(list.get(10));// Unchecked Exception
+            System.out.println("try block");
 
         }catch (IndexOutOfBoundsException exc){ // or we can write the parent name "Runtime Exception or the grandpa name
             // (RuntimeException exc)           so the easiest way is just to write the Granpa's name "Exception"

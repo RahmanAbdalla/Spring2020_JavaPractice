@@ -5,102 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="785e2073-801d-4066-9f9b-a0d03de38bd2" name="Default Changelist" comment="rahman">
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day42_Inheritance/AccessModifiers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day42_Inheritance/B.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day42_Inheritance/CallingConstructor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day42_Inheritance/CallingConstructor2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day42_Inheritance/Data.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day42_Inheritance/InheritanceReveiw.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day42_Inheritance/SuperKeyword.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day42_Inheritance/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day42_Inheritance/TestAccessModifiers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day42_Inheritance/TestData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day42_Inheritance/superclass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day42_Inheritance/testing.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day43_MethodOverriding/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day43_MethodOverriding/CarObjects.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day43_MethodOverriding/Circle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day43_MethodOverriding/Honda.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day43_MethodOverriding/Jeep.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day43_MethodOverriding/MethodOverriding.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day43_MethodOverriding/Rectangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day43_MethodOverriding/ShapeAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day43_MethodOverriding/ShapeObject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day43_MethodOverriding/Square.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day43_MethodOverriding/Tesla.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day43_MethodOverriding/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day44_Eceptions/Browsers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day44_Eceptions/CheckedException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day44_Eceptions/ChromeBrowser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day44_Eceptions/ExceptionHandling.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day44_Eceptions/ExceptionPractice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day44_Eceptions/FirefoxBrowser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day44_Eceptions/OperaBrowser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day44_Eceptions/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day44_Eceptions/Unchecked.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day44_Eceptions/finallyBlock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day44_Eceptions/multi_catchBlocks.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day44_Eceptions/practice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day44_Eceptions/task.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day44_Eceptions/try_catchBlock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day44_Eceptions/try_catchBlock2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/OfficeHours/Practice_05_20_2020/Bunny.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/OfficeHours/Practice_05_20_2020/Cat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/OfficeHours/Practice_05_20_2020/Constructor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/OfficeHours/Practice_05_20_2020/Data.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/OfficeHours/Practice_05_20_2020/Dog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/OfficeHours/Practice_05_20_2020/Pet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/OfficeHours/Practice_05_20_2020/PetObjects.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/OfficeHours/Practice_05_20_2020/SuperKeyword.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/OfficeHours/Practice_05_20_2020/SuperKeyword2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/OfficeHours/Practice_05_20_2020/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/OfficeHours/Practice_05_20_2020/TestData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/OfficeHours/Practice_05_27_2020/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/OfficeHours/Practice_05_27_2020/TestClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/OfficeHours/Practice_05_27_2020/methodOverloading.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/OfficeHours/Practice_05_27_2020/methodOverriding.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/OfficeHours/Practice_05_27_2020/methodOverriding2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Resourses/Inheritance.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Resourses/Inheritance2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Resourses/vzdvczd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day00_ME/NewTimer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day42_Inheritance/AccessModifiers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day42_Inheritance/CallingConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day42_Inheritance/CallingConstructor2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day42_Inheritance/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day42_Inheritance/InheritanceReveiw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day42_Inheritance/SuperKeyword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day42_Inheritance/TestAccessModifiers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day42_Inheritance/TestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day43_MethodOverriding/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day43_MethodOverriding/MethodOverriding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day43_MethodOverriding/ShapeAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day44_Eceptions/Browsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day44_Eceptions/CheckedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day44_Eceptions/ExceptionHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day44_Eceptions/ExceptionPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day44_Eceptions/Unchecked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day44_Eceptions/finallyBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day44_Eceptions/multi_catchBlocks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day44_Eceptions/practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day44_Eceptions/task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day44_Eceptions/try_catchBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day44_Eceptions/try_catchBlock2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_20_2020/Constructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_20_2020/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_20_2020/SuperKeyword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_20_2020/SuperKeyword2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_27_2020/methodOverloading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_27_2020/methodOverriding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_27_2020/methodOverriding2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resourses/Inheritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resourses/Inheritance2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resourses/vzdvczd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day45_Exception/ThrowKeyword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day45_Exception/ThrowsKeyword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day45_Exception/ThrowsKeyword2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day45_Exception/ThrowsKeyword3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day45_Exception/warmUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day46_final_abstract/credentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day46_final_abstract/final_Encapsulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day46_final_abstract/final_Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day46_final_abstract/final_Variables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day46_final_abstract/final_class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day46_final_abstract/final_method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day46_final_abstract/final_methods2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resourses/CustomException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day00_ME/Timer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day00_ME/Timer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day42_Inheritance/Task01/company.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day42_Inheritance/Task01/company.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day00_ME/KgToPound.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day00_ME/KgToPound.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day42_Inheritance/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day42_Inheritance/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day44_Eceptions/try_catchBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Day44_Eceptions/try_catchBlock.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Resourses/ArrayPresentation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020b17_Java/Resourses/ArrayPresentation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day00_ME/Timer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day00_ME/Timer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day00_ME/KgToPound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day00_ME/KgToPound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day44_Eceptions/try_catchBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day44_Eceptions/try_catchBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Resourses/ArrayPresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resourses/ArrayPresentation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,13 +62,13 @@
       <recent name="Resourses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayPresentation">
-    <configuration name="ArrayPresentation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Resourses.ArrayPresentation" />
+  <component name="RunManager" selected="Application.ExceptionHandling">
+    <configuration name="ExceptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day44_Eceptions.ExceptionHandling" />
       <module name="Spring2020b17_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Resourses.*" />
+          <option name="PATTERN" value="Day44_Eceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodOverriding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day43_MethodOverriding.MethodOverriding" />
+    <configuration name="ExceptionPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day44_Eceptions.ExceptionPractice" />
       <module name="Spring2020b17_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day43_MethodOverriding.*" />
+          <option name="PATTERN" value="Day44_Eceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewTimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day00_ME.NewTimer" />
+    <configuration name="finallyBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day44_Eceptions.finallyBlock" />
       <module name="Spring2020b17_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day00_ME.*" />
+          <option name="PATTERN" value="Day44_Eceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Timer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day00_ME.Timer" />
+    <configuration name="multi_catchBlocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day44_Eceptions.multi_catchBlocks" />
       <module name="Spring2020b17_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day00_ME.*" />
+          <option name="PATTERN" value="Day44_Eceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bankAccObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day41_Inheritance.bankAccObject" />
+    <configuration name="try_catchBlock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day44_Eceptions.try_catchBlock2" />
       <module name="Spring2020b17_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day41_Inheritance.*" />
+          <option name="PATTERN" value="Day44_Eceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayPresentation" />
-        <item itemvalue="Application.Timer" />
-        <item itemvalue="Application.NewTimer" />
-        <item itemvalue="Application.MethodOverriding" />
-        <item itemvalue="Application.bankAccObject" />
+        <item itemvalue="Application.ExceptionHandling" />
+        <item itemvalue="Application.ExceptionPractice" />
+        <item itemvalue="Application.finallyBlock" />
+        <item itemvalue="Application.multi_catchBlocks" />
+        <item itemvalue="Application.try_catchBlock2" />
       </list>
     </recent_temporary>
   </component>
@@ -244,10 +168,10 @@
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="220" y="23" width="1000" height="823" key="#Project_Structure/0.23.1440.823@0.23.1440.823" timestamp="1583422932740" />
-    <state x="489" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1589571540598">
+    <state x="489" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1591021828400">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="489" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1589571540598" />
+    <state x="489" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1591021828400" />
     <state x="395" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589211461518">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -260,49 +184,49 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="305" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587530705137" />
-    <state width="1388" height="195" key="GridCell.Tab.0.bottom" timestamp="1590724293053">
+    <state width="1388" height="195" key="GridCell.Tab.0.bottom" timestamp="1591023526472">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="195" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590724293053" />
+    <state width="1388" height="195" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591023526472" />
     <state width="919" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1588345045979" />
     <state width="1388" height="226" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1584156106370" />
     <state width="1388" height="227" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1586219180707" />
     <state width="1388" height="195" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1588794899803" />
     <state width="1388" height="195" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1589516772672" />
-    <state width="1388" height="195" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1589082598454" />
+    <state width="1388" height="195" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1591020080542" />
     <state width="1348" height="187" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1583524580728" />
-    <state width="1388" height="195" key="GridCell.Tab.0.center" timestamp="1590724293051">
+    <state width="1388" height="195" key="GridCell.Tab.0.center" timestamp="1591023526470">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="195" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590724293051" />
+    <state width="1388" height="195" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591023526470" />
     <state width="919" height="195" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1588345045969" />
     <state width="1388" height="226" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1584156106368" />
     <state width="1388" height="227" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1586219180706" />
     <state width="1388" height="195" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1588794899800" />
     <state width="1388" height="195" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1589516772670" />
-    <state width="1388" height="195" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1589082598453" />
+    <state width="1388" height="195" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1591020080535" />
     <state width="1348" height="187" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1583524580726" />
-    <state width="1388" height="195" key="GridCell.Tab.0.left" timestamp="1590724293050">
+    <state width="1388" height="195" key="GridCell.Tab.0.left" timestamp="1591023526468">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="195" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590724293050" />
+    <state width="1388" height="195" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591023526468" />
     <state width="919" height="195" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1588345045967" />
     <state width="1388" height="226" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1584156106366" />
     <state width="1388" height="227" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1586219180705" />
     <state width="1388" height="195" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1588794899799" />
     <state width="1388" height="195" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1589516772669" />
-    <state width="1388" height="195" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1589082598452" />
+    <state width="1388" height="195" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1591020080534" />
     <state width="1348" height="187" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1583524580725" />
-    <state width="1388" height="195" key="GridCell.Tab.0.right" timestamp="1590724293052">
+    <state width="1388" height="195" key="GridCell.Tab.0.right" timestamp="1591023526471">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="195" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590724293052" />
+    <state width="1388" height="195" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591023526471" />
     <state width="919" height="195" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1588345045975" />
     <state width="1388" height="226" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1584156106369" />
     <state width="1388" height="227" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1586219180706" />
     <state width="1388" height="195" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1588794899801" />
     <state width="1388" height="195" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1589516772671" />
-    <state width="1388" height="195" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1589082598454" />
+    <state width="1388" height="195" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1591020080538" />
     <state width="1348" height="187" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1583524580727" />
     <state width="1388" height="288" key="GridCell.Tab.1.bottom" timestamp="1590379621518">
       <screen x="0" y="0" width="1440" height="900" />
