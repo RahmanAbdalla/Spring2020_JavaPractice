@@ -22,3 +22,16 @@ public class credentials {
    } */
 
 }
+
+
+class Test1 {
+
+    public static void main(String[] args) {
+
+        credentials obj = new credentials();
+
+        System.out.println(obj.getPassword());
+        System.out.println(obj.getUsername());
+
+    }
+}

@@ -41,11 +41,21 @@ public class final_Practice {
 
 class test extends final_Practice {
 
+    public int method1(int a){
+        return a;
+    } // overridden coz it's NOT final
+
    /*
     @Override
     public void method1(){
 
     } */
 
+   /*
+   public final static void method2(int a){
+
+   }
+
+ */
 
 }
