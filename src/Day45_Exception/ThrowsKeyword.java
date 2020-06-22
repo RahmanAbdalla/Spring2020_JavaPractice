@@ -2,6 +2,7 @@ package Day45_Exception;
 
 public class ThrowsKeyword {
 
+
     public static void sleep1()  {
         try {
             Thread.sleep(3000);
