@@ -7,7 +7,7 @@ public class lists {
 
         //******************** ArrayList *********************
         //1- We can make objects from ArrayList by making List the reference type
-        List<Integer> list1 = new ArrayList<>();// polymorphisim coz parent name(List) is used to refer to child's obj
+        List<Integer> list1 = new ArrayList<>();// polymorphism coz parent name(List) is used to refer to child's obj
         list1.add(1);
 
         // List<Integer> list2 = new List(); coz List is interface and it CANNOT have objects
