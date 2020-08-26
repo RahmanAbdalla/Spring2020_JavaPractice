@@ -38,18 +38,31 @@ public class NestedLoops2 {
 
         //1 - PRINT  7896012345
 
-        for (int k=0; k < arr2D.length; k++) {
+        for (int i=0; i<arr2D.length; i++){
 
-            for (int i = arr2D[k].length - 1; i >= 0; i--) {
-                System.out.print(arr2D[k][i] + " ");
+            for (int k=arr2D[i].length-1 ; k >=0; k--){
+                System.out.print(arr2D[i][k]+" ");
             }
         }
+
         System.out.println();
 
         System.out.println("&&&&&&&&&&&&&&&&&&");
 
-       //2- PRINT    //5432106987
+        //2- PRINT    //0123456789
 
+        for (int i=arr2D.length-1; i >=0;  i--){
+
+            for (int k=arr2D[i].length-1 ; k >=0; k--){
+                System.out.print(arr2D[i][k]+" ");
+            }
+        }
+        System.out.println();
+
+        System.out.println("======================");
+
+
+        //2- PRINT    //5432106987
         for (int k = arr2D.length-1; k >=0;  k--) {
 
             for (int i = 0; i < arr2D[k].length; i++) {

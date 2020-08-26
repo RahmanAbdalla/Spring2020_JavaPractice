@@ -29,7 +29,7 @@ public class Days {
             }
 
             if (num ==i){
-                System.out.println(day[i-1]);
+                System.out.println(day[i]);
             }
 
         }

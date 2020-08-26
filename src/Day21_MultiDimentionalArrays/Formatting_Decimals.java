@@ -11,7 +11,7 @@ public class Formatting_Decimals {
         double a = 10.0 / 3.0;
         System.out.println(a);// we get decimal:  3.333333333335
 
-        System.out.println(DF.format(a));// this method by DEFAULT rounds num to the 3rd decimal: 3.333
+        System.out.println(DF.format(a));// this method by DEFAULT rounds num to the 3rd decimal: 3.33
 
     }
 }

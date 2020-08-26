@@ -35,5 +35,11 @@ public class RemoveDuplicates {
 
         System.out.println("After removing duplicates: "+ list);
 
+        float f = Float.parseFloat("25");
+        String s = Float.toString(25.0f);
+
+        System.out.println(f+5);        System.out.println(s+5);
+
+
     }
 }

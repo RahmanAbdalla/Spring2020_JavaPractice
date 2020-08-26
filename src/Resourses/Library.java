@@ -3,6 +3,7 @@ package Resourses;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 public class Library {
 
@@ -348,7 +349,16 @@ public class Library {
             }
         }
         return max2;
+
+
+//          OR
+//        List<Integer> list = new ArrayList<>(Arrays.asList(6,3,5,2,68,9));
+//
+//        Collections.sort(list);
+//
+//        System.out.println(list.get(0));
     }
+
 
     // Reverse ListInteger
     public static String reverseList(ArrayList<Integer> list) {

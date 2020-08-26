@@ -1,13 +1,14 @@
 package JavaInterviewQuestions;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+
+
+import java.util.*;
 
 public class MovingZeros {
     public static void main(String[] args) {
 
-
-        int a[] = {1, 0, 2, 0, 3, 0, 4, 0};
+/*
+        int a[] = {1, 0, 2, 0, 3, 0, 4, 0,5,6,0,0};
 
         ArrayList<Integer> list = new ArrayList<>();
 
@@ -48,5 +49,38 @@ public class MovingZeros {
             res+=n*(n-1);
         }
         System.out.println(res);
+
+ */
+
+        String str = "anndggddefrths";
+
+        String  res = freq(str);
+        System.out.println(res);
+
+
+    }
+    //                  String str = "DevLabs Alliance is awesome.";
+
+    public static String freq( String str) {
+
+        String res="";
+
+        for (int i=0; i < str.length(); i++) {
+
+            int count=0;
+            for (int k=0; k < str.length(); k++) {
+                if (str.charAt(k)==str.charAt(i)){
+                    count++;
+                }
+
+            }
+            if (count > 1)
+                res += str.charAt(i);
+
+        }
+
+            return res;
+
     }
 }
+

@@ -32,10 +32,25 @@ public class CountWords {
               //  ocurr = ocurr.replaceFirst("Python","");
             }
         }
+
+        // For Loop
+//        for (int i=0; i<arr2.length; i++){
+//
+//            if (arr2[i].contains("Java")){
+//                countJava++;
+//            }
+//            if (arr2[i].contains("Python")){
+//                countPython++;
+//            }
+//        }
+
         System.out.println(countJava == countPython);
+
 
         System.out.println("Java appears "+countJava+" time(s) in this array.");
         System.out.println("Python appears "+countPython+" time(s) in this array.");
+
+
 
     }
 }

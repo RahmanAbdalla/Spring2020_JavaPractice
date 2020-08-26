@@ -23,5 +23,7 @@ public class NestedLoop3 {
         System.out.println();
         System.out.println("Odd count is: "+count);
 
+
     }
+
 }

@@ -14,9 +14,9 @@ public class Iterating_Collection2 {
         Iterator<String> iterator = names.iterator();
 
         while (iterator.hasNext()) {
-            String str = iterator.next().toLowerCase();
+            String eachname = iterator.next().toLowerCase();
 
-            if (str.startsWith("a") || str.startsWith("h")) { //[Rahman, Z]
+            if (eachname.startsWith("a") || eachname.startsWith("h")) { //[Rahman, Z]
 
                 iterator.remove();
             }

@@ -8,7 +8,7 @@ public class Birthdays {
 
         LocalDateTime now = LocalDateTime.now();
         System.out.println(now);
-        HappyBirthDay(1990, 4, 25,"Rahman");
+        HappyBirthDay(2020, 8, 25,"Rahman");
 
     }
 

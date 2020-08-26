@@ -4,7 +4,7 @@ public class DivideWithout {
     public static void main(String[] args) {
 
         int a = 15;
-        int b = 25;
+        int b = 40;
 
         int res = 0;
 

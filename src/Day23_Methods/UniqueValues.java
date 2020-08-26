@@ -31,10 +31,11 @@ public class UniqueValues {
                     count++;
                 }
             if (count == 1) {
-                System.out.println(eachel1);
+               uique+=eachel1+", ";
                 // uique += eachel1+" "; OR we can add unique element to a string above
             }
         }
+        System.out.println("Unique word is: "+uique.substring(0,uique.length()-2));
 
         System.out.println("==============================");
 
@@ -45,7 +46,32 @@ public class UniqueValues {
          */
 
         String str = "AAABBCC";
+        String nonDup="";
         String res = "";
+
+        for (int i=0; i<str.length(); i++){
+            if (!nonDup.contains(str.charAt(i)+""))
+            nonDup+=str.charAt(i);
+        }
+
+
+        for (int k=0; k < nonDup.length(); k++) {
+
+
+            int countt = 0;
+            for (int j = 0; j < str.length(); j++) {
+
+                if (nonDup.charAt(k) == str.charAt(j)) {
+                    countt++;
+                }
+            }
+
+            res+=nonDup.charAt(k)+""+countt;
+        }
+
+        System.out.println(res);
+
+
 
         String st [] = str.split("");    //[A, A, A, B, B, C, C]
 
@@ -55,11 +81,11 @@ public class UniqueValues {
         System.out.println(st.length);
 
         int count2=0;
-        for (int k=0; k < st.length; k++) {
+        for (int k=0; k < st2.length; k++) {
 
-            for (int i = 0; i < st2.length; i++) {
+            for (int i = 0; i < st.length; i++) {
 
-                if (st[k].equals(st2[i]) ) {
+                if (st2[k].contains(st[i]) ) {
                    continue;
                 }
                 st[k]=st2[i];

@@ -20,7 +20,8 @@ public class ScrumTeam {
 
         ScrumTeam[1] = TestersTeam2;
 
-        System.out.println(ScrumTeam[0][3]);
+        System.out.println(ScrumTeam[0][3]);/// Jean
+        System.out.println(DevTeam[3]); // Jean
         String info = ScrumTeam[1][2];
 
         System.out.println(info);

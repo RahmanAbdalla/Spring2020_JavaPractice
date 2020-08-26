@@ -19,7 +19,7 @@ public class Dates_Formatting {
         //EEEE ==> writes full name of the day / EE ==> write the beginning letters
         //MMMM ==> writes full name of the month / MMM ==> writes three beginning letters of the month
 
-        DateTimeFormatter dtf1 = DateTimeFormatter.ofPattern("EE MMM/dd/yy");
+        DateTimeFormatter dtf1 = DateTimeFormatter.ofPattern("EE MMMM/dd/yy");
 
         LocalDate birhtday = LocalDate.of(2002,4,23);
         System.out.println(birhtday.format(dtf1));

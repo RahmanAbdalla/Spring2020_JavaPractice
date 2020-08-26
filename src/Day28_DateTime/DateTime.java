@@ -23,6 +23,7 @@ public class DateTime {
         System.out.println(dateTime2);
 
 
-
+        System.out.println(LocalDate.now());
+        System.out.println(LocalTime.now());
     }
 }

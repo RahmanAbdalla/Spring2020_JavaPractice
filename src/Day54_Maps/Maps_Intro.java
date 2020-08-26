@@ -12,7 +12,7 @@ public class Maps_Intro {
 
         //1- put() method : adds objects
         employeeInfo.put("Adil", 125000.0);
-        employeeInfo.put("Rahman",130000.0);
+        employeeInfo.put("Rahma",130000.0);
         employeeInfo.put("Hunar",126000.0);
 
 

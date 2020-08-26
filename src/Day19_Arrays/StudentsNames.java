@@ -17,9 +17,11 @@ public class StudentsNames {
 
         String[] students = new String[10];
 
+        int countNames=1;
         for (int i=0; i <=9; i++) {
-            System.out.println("Type a name:");
+            System.out.println("Type name"+countNames+":");
             names = scan.next();
+            countNames++;
           //OR  allNames+=names;
 
             students[i]=names+" ";

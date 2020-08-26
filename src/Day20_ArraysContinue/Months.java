@@ -35,7 +35,7 @@ public class Months {
 
             }
             if (num == i) {
-                System.out.println(month[i - 1]);
+                System.out.println(month[i-1]);
             }
         }
 

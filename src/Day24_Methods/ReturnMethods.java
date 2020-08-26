@@ -4,7 +4,7 @@ public class ReturnMethods {
 
     public static void maxNum (int a, int b){
 
-        if (a >- b) {
+        if (a > b) {
             System.out.println(a);
         }else {
             System.out.println(b);

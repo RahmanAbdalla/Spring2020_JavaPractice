@@ -21,6 +21,7 @@ public class Zoo {
             }
             res1 += allBirds + ", ";
         }
+        System.out.println(res1);
             System.out.println(res1.substring(0,res1.length()-2));// to get rid of the comma
 
         System.out.println("====================================");
