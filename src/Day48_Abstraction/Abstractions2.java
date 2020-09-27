@@ -1,5 +1,6 @@
 package Day48_Abstraction;
 
+
 interface A1{
 
     void methodA1();

@@ -9,7 +9,7 @@ abstract class Shape {
                     both methods return double
      */
 
-    public  String name;
+    public static String name;
     abstract double calculateArea();
     abstract double calculatePerimeter();
 

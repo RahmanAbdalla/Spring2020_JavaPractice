@@ -17,7 +17,7 @@ public class ValueOfMethods {
 
         String str2 = "15.5";
         double d2 = Double.parseDouble(str2);
-        double d3 = Double.valueOf(str2);// returns Wrapper class coz it's ValueOf Method(); Unboxing
+        Double d3 = Double.valueOf(str2);// returns Wrapper class coz it's ValueOf Method(); Unboxing
 
         System.out.println(d2);
         System.out.println(d3);
@@ -72,6 +72,16 @@ public class ValueOfMethods {
 
 
 
+        // sum up all the numbers in the string
+        String sd = "fh7h4j33k3";
+        Integer nums=0;
+
+        for (int i=0; i<sd.length(); i++){
+            if (Character.isDigit(sd.charAt(i)))
+            nums+=Integer.valueOf(""+sd.charAt(i));
+        }
+
+        System.out.println(nums);
 
 
 

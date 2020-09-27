@@ -8,6 +8,11 @@ public class ConstructorIntro {
         System.out.println("Constructor with argument");
     }
 
+    public ConstructorIntro(){
+        this(10);
+        System.out.println("Test");
+    }
+
 
 
     public static void main(String[] args) {
@@ -15,7 +20,7 @@ public class ConstructorIntro {
     //    ConstructorIntro obj = new ConstructorIntro(); we MUST use the current constructor
 
         ConstructorIntro obj = new ConstructorIntro(10);
-        ConstructorIntro ob2 = new ConstructorIntro(10);
+        ConstructorIntro ob2 = new ConstructorIntro();
 
     }
 }

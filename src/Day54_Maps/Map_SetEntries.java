@@ -1,9 +1,7 @@
 package Day54_Maps;
 
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
+import java.lang.reflect.Array;
+import java.util.*;
 
 public class Map_SetEntries {
     public static void main(String[] args) {
@@ -68,10 +66,40 @@ public class Map_SetEntries {
         System.out.println(goodStudents);
 
 
+        System.out.println("=============================");
+
+        Map<String, String> animals = new LinkedHashMap<>();
+        animals.put("cow","domestic");
+        animals.put("tiger","wild");
+        animals.put("donkey","domestic");
+        animals.put("sheep","domestic");
+        animals.put("ostrich","wild");
+
+        LinkedHashMap<String, String> domesticAnimals = new LinkedHashMap<>();
+        LinkedHashMap<String, String> wildAnimals = new LinkedHashMap<>();
 
 
+        for ( String eachKey : animals.keySet() ) {
+
+            String animalType = animals.get(eachKey);
+
+            if (animalType.equals("domestic")){
+                domesticAnimals.put(eachKey,animalType);
+            }else {
+                wildAnimals.put(eachKey,animalType);
+            }
+        }
+
+        System.out.println(domesticAnimals);
+        System.out.println(wildAnimals);
 
 
+        for ( String eachKey : animals.keySet() ) {
 
-    }
+            System.out.println("Animal name: "+eachKey+", Type: "+animals.get(eachKey));
+            System.out.println();
+        }
+
+
+        }
 }

@@ -14,20 +14,20 @@ public class bankAcoount {
 
 
     public void checkingBalance() {
-        System.out.println("Available balance is: "+balance);
+        System.out.println("Available balance is: $"+balance);
     }
     public void depos (double depAmount){
-        System.out.println("Balance after depositing "+depAmount+" is: "+ (balance += depAmount));
+        System.out.println("Balance after depositing $"+depAmount+" is: $"+ (balance += depAmount));
     }
     public void withdraw (double amount){
         if (balance <= 0){
-            System.out.println("Sorry, you are not able to withdraw any money, for your available balance is: "+balance);
+            System.out.println("Sorry, you are not able to withdraw any money, for your available balance is: $"+balance);
         }else if (amount > balance){
             balance -= (amount + 35);
-            System.out.println("Your balance is now: "+balance+" including $35 charging fee");
+            System.out.println("Your balance is now: $"+balance+" including $35 charging fee");
 
         }else {
-            System.out.println("Balance after withdrawing " + amount + " is: " + (balance -= amount));
+            System.out.println("Balance after withdrawing $" + amount + " is: $" + (balance -= amount));
         }
     }
 

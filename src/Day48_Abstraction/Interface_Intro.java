@@ -12,6 +12,7 @@ public interface Interface_Intro {
 
     public abstract void method1();
     public void method2(); // abstract by default
+    public final static int n=0;
 
     void method3(); // public by default
 }

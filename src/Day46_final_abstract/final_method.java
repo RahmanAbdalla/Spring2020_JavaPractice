@@ -2,12 +2,12 @@ package Day46_final_abstract;
 
 public class final_method {
 
-    public final void method1(){ //we can overload any method regardless if they're final or not
+    public final void method1() { //we can overload any method regardless if they're final or not
 
 
     }
 
-    public int method1(int a){
+    public int method1(int a) {
         return 100;
     }
 
@@ -15,7 +15,21 @@ public class final_method {
 
     }
 
-    public final_method(){
+    public final_method() {
 
     }
+
+
 }
+class a extends final_method{
+
+    public a(){
+        super();
+    }
+}
+
+
+
+
+
+

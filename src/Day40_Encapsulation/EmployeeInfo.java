@@ -34,6 +34,18 @@ public class EmployeeInfo {
         this.SSN = ssn;
     }
 
+
+    @Override
+    public String toString() {
+        return "EmployeeInfo{" +
+                "id=" + id +
+                ", salary=" + salary +
+                ", SSN=" + SSN +
+                ", address='" + address + '\'' +
+                ", Company name="+companyName+
+                '}';
+    }
+
     public String getAddress() {
         return address;
     }
@@ -56,8 +68,9 @@ class employeeObject{
         Abdul.setSSN(44399920);
         Abdul.setSalary(140_000);
 
-        System.out.println("Address: "+Abdul.getAddress()+"\nCompany Name: "+Abdul.companyName+
-                "\nID: "+Abdul.getId()+"\nSSN: "+Abdul.getSSN()+"\nSalary: $"+Abdul.getSalary());
+//        System.out.println("Address: "+Abdul.getAddress()+"\nCompany Name: "+Abdul.companyName+
+//                "\nID: "+Abdul.getId()+"\nSSN: "+Abdul.getSSN()+"\nSalary: $"+Abdul.getSalary());
 
+        System.out.println(Abdul);
     }
 }

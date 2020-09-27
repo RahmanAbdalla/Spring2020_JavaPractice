@@ -12,6 +12,7 @@ public class Car {
 class Tesla extends Car{
 
  // protected
+    @Override
     public void start(){
         System.out.println("Push button to start");
     }

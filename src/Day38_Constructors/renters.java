@@ -90,6 +90,8 @@ class apartment{
         System.out.println(renter2);
         System.out.println(renter3);
 
+
+
         rentersObject list = new rentersObject();
         list.adding(renter1);
         list.adding(renter2);

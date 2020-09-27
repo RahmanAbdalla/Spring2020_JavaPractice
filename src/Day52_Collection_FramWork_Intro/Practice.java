@@ -14,8 +14,10 @@ public class Practice {
         // First way
         String str = "AABCDEEFFG";
 
-        String arr [] = str.split("");
-        HashSet<String> hashSet= new HashSet<>(Arrays.asList(arr));
+       // String arr [] = str.split("");
+        HashSet<String> hashSet= new HashSet<>(Arrays.asList(str.split("")));
+
+        System.out.println(hashSet);
 
         String res="";
 

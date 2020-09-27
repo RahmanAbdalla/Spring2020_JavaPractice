@@ -17,6 +17,7 @@ public class Lambda_Expressions {
 
         list.removeIf(oddNum);// it removes every odd num from the list. NO Printing
         System.out.println(list);
+        System.out.println("=================");
 
         // remove all numbers less than five in the list above
         ArrayList<Integer> list1 = new ArrayList<>();
@@ -25,9 +26,24 @@ public class Lambda_Expressions {
         list1.removeIf(lessthan5);
         System.out.println(list1);
 
+        System.out.println("=================");
         //remove all names started with "r" and "Z"
         ArrayList<String> names = new ArrayList<>();
-        names.addAll(Arrays.asList("Rahman", "rarzy", "rdil","runar", "Zipper", "Zee"));
+        names.addAll(Arrays.asList("Rahman", "rarzy", "Barzan","runar", "Warzer", "Zee"));
+
+        Predicate<String> test = w -> w.substring(1,3).equals("ar");
+
+        names.removeIf(test);
+        System.out.println(names);
+
+        System.out.println("=================");
+
+        Predicate<String> lengthTest = l -> l.length() <= 5;
+        names.removeIf(lengthTest);
+        System.out.println(names);
+
+        System.out.println("=================");
+
 
         Predicate <String> startwith = n -> n.startsWith("r") || n.startsWith("Z");
         names.removeIf(startwith);
@@ -58,7 +74,8 @@ public class Lambda_Expressions {
 
 
         // Write a program to print only the special characters
-        Predicate<Character> removeExceptsp = d ->  Character.isDigit(d) || d >=65 && d <=90;
+        Predicate<Character> removeExceptsp = d ->  Character.isDigit(d) || Character.isAlphabetic(d) ;
+                                                                            // OR d >=65 && d <=90;
         ArrayList<Character> random = new ArrayList<>();
         random.addAll(Arrays.asList('A', 'B', '3', '4','5', '@','&','Z'));
         random.removeIf(removeExceptsp);
@@ -76,6 +93,7 @@ public class Lambda_Expressions {
 
         ArrayList<Integer> list5 = new ArrayList<>();
         list5.addAll(Arrays.asList(1,1,2,2,3,4,5,6,6,7,7,8,8,9,10,10));
+
 
         list5.removeIf(s -> Collections.frequency(list5,s)!=1);
         System.out.println(list5);
