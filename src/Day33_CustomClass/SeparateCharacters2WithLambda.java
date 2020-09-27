@@ -2,11 +2,14 @@ package Day33_CustomClass;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class SeparateCharacters2WithLambda {
     public static void main(String[] args) {
 
         String str = "ABCD123$%#@&456EFG!";
+
         char arr [] = str.toCharArray();
         Character ch [] = new Character[arr.length];
         for (int i=0; i < arr.length; i++){

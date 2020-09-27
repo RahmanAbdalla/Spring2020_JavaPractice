@@ -11,6 +11,7 @@ public class Iterating_Collection {
         // Remove all numbers less than 4
         ArrayList<Integer> list = new ArrayList<>(Arrays.asList(1,1,2,2,3,3,4,4,5,5));
 
+
         for (int i=0; i < list.size(); i++) {
           /*  if (list.get(i) < 4){ // this is not able to remove duplicate but temporarily, therefore we should use
                                         ITERATOR
@@ -30,6 +31,11 @@ public class Iterating_Collection {
         Iterator<Integer> iterator = list2.iterator();
 
 
+        while (iterator.hasNext()){
+            System.out.println("Hi");
+            iterator.next();
+        }
+
         // In order to verify if the Iterator has objects or Not then we use hasNext() method
 
        while (iterator.hasNext()){
@@ -41,7 +47,7 @@ public class Iterating_Collection {
 
         System.out.println(list2);
 
-        System.out.println("================ for loop with Iterator");
+        System.out.println("================ for loop with Iterator =================");
 
         ArrayList<Integer> list3 = new ArrayList<>(Arrays.asList(1,1,2,2,3,3,4,4,5,5));
 

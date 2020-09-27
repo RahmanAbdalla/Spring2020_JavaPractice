@@ -17,6 +17,9 @@ public class Abstract_VS_NonAbstract2 extends A{//When subclass is NOT abstract 
 
     }
 
+    @Override
+    public void method2(){
+    }
 
 }
 

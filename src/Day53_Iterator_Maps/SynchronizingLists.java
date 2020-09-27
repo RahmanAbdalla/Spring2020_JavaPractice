@@ -5,7 +5,7 @@ import java.util.*;
 
 public class SynchronizingLists {
 
-    //COllections.swap, .sort, .synchronize, .frequency
+    //Collections.swap, .sort, .synchronize, .frequency
 
     public static void main(String[] args) {
 

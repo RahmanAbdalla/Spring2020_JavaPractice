@@ -3,7 +3,7 @@ package Day47_Abstraction;
 /*
 Task03:
 		1. create an abstract class called Browser
-					attribues: browserName
+					attributes: browserName
 					methods:
 							abstract methods: get(URL), close(), maximize();
 		2. create three sub classes of Browser:

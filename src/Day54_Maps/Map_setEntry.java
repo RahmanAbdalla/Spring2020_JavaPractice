@@ -31,6 +31,10 @@ public class Map_setEntry {
             String countryName = each.getKey();
             String capitalCity = each.getValue();
 
+            System.out.print("Country: "+countryName+", Capital: "+capitalCity);
+
+            System.out.println();
+
             if (countryName.equalsIgnoreCase(inputName)){
                 System.out.println(inputName+"'s capital city is: "+each.getValue());
             }

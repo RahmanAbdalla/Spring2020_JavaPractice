@@ -22,7 +22,7 @@ public class final_Variables {
         System.out.println(score);
 
         final_Variables obj = new  final_Variables();
-
+        System.out.println(obj.InstanceVariable);
         // obj.InstanceVariable =400; // we cannot reassign it coz it's final now, otherwise we could
 
        // staticVariables = 2000;  We cannot reassign this static variable coz it's final

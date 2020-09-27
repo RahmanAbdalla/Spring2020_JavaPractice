@@ -50,5 +50,6 @@ public class ParsMethods {
         // Parsing method ignores case sensitivity
         String result2  = "fALsE"; // false
         boolean b3 = Boolean.parseBoolean(result2);// false coz it ignores case sensitivity
+        System.out.println(b3);
     }
 }

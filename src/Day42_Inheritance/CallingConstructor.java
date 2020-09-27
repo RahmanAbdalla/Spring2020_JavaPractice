@@ -13,7 +13,7 @@ class test {
 public class CallingConstructor extends test {
 
     public CallingConstructor() {
-
+        super();
         System.out.println("B");
 
     }

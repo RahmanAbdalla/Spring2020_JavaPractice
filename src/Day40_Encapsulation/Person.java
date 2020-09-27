@@ -7,6 +7,7 @@ public class Person {
     private long ssn;
     private long ID;
 
+
     public Person (String  name){
         this.name=name;
     }

@@ -29,7 +29,7 @@ public class StaticBlock3 {
         num = 200;
 
         StaticBlock3 obj = new StaticBlock3();
-        int n = obj.num2 =900;
+        int n = obj.num2 = 900;
         System.out.println("static "+n); // printed first
 
     }

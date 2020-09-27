@@ -10,7 +10,8 @@ public final class circle extends Shape implements PI {
  */
 
     public double radius;
-    {
+
+    static {
         name="Circle";
     }
 

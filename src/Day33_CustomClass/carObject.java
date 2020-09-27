@@ -1,5 +1,7 @@
 package Day33_CustomClass;
 
+import java.util.Arrays;
+
 public class carObject {
     public static void main(String[] args) {
 
@@ -50,6 +52,8 @@ public class carObject {
      cars[0].getCarInfo();
      cars[1].getCarInfo();
      cars[2].getCarInfo();
+
+     System.out.println(Arrays.toString(cars));
 
     }
 

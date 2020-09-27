@@ -11,7 +11,6 @@ public class Time_Formatting {
 
         LocalTime time1 = LocalTime.of(12,0,50);// 12 hours :30 minutes PM
         System.out.println(time1.format(dtf));
-        System.out.println("jhrhffcshskgi");
 
 
     }

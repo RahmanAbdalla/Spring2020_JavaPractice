@@ -60,5 +60,28 @@ public class returnDuplicate {
             }
         }
         System.out.println(list2);
+
+
+        int [] arr = {0,2,9,0,1,7,0,10,0,0,8,0};
+
+        ArrayList<Integer> notZeros = new ArrayList<>();
+
+        int countZeros=0;
+        for (int each: arr
+             ) {
+            if (each==0){
+                countZeros++;
+            }else {
+                notZeros.add(each);
+            }
+        }
+
+        arr = new int[notZeros.size()+countZeros];
+
+        for (int i=0; i<notZeros.size(); i++){
+            arr[i] = notZeros.get(i);
+        }
+
+        System.out.println(Arrays.toString(arr));
     }
 }

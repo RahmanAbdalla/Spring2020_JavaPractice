@@ -13,7 +13,7 @@ public class LocalDate_Practice {
 
             System.out.print(friends[i] + "'s birthday is: " + birthdays[i] + " ");
             System.out.println();
-            System.out.println("Happy birthday guys you fine");
+            System.out.println("Happy birthday "+friends[i]+"!");
         }
     }
 }

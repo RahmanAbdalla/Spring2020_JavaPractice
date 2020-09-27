@@ -11,7 +11,7 @@ public final class cylinder extends Shape implements volume,PI {
     public double radius;
     public double height;
 
-    {
+    static {
         name="Cylinder";
     }
 

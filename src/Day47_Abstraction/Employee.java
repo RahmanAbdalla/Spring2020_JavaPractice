@@ -12,6 +12,7 @@ Task02:
 									2. Developer
 					each class MUST have constructors to initialize the attributes
  */
+
 public abstract class Employee {
 
     String name; int age; char gender; double salary; String jobTitle; static String companyName="BoA";
@@ -29,6 +30,7 @@ public abstract class Employee {
 }
 
 class testers extends Employee{
+
 
     public testers (String name, int age, char gender, double salary, String jobTitle ){
         this.name = name;

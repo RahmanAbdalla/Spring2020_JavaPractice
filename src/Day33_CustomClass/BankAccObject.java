@@ -6,7 +6,7 @@ public class BankAccObject {
         bankAcoount account1 = new bankAcoount();
 
        // account1.getAccInfo("Rahman",123455654,45453);
-        account1.getAccInfo("Cybertek",12345656,0);
+        account1.getAccInfo("Cybertek",12345656,5);
         System.out.println(account1);
         System.out.println("======================");
 
@@ -16,5 +16,7 @@ public class BankAccObject {
 
 
         account1.checkingBalance();
+
+        account1.depos(500);
     }
 }
